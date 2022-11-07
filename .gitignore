@@ -1,3 +1,4 @@
-building/result/*
+building/result/**
 building/utils/__pycache__
 node_modules
+package-lock.json
