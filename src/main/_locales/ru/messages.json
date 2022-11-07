@@ -1,0 +1,53 @@
+{
+  "extName": {
+    "message": "Расширение Яндекс переводчика"
+  },
+  "extShortName": {
+    "message": "Яндекс переводчик"
+  },
+  "extDesc": {
+    "message": "Предоставляет возможность перевода страниц с помощью Яндекс переводчика"
+  },
+  "settings": {
+    "message": "Настройки"
+  },
+  "uiTheme": {
+    "message": "тема"
+  },
+  "lightTheme": {
+    "message": "светлая"
+  },
+  "darkTheme": {
+    "message": "тёмная"
+  },
+  "apiKeyToTs": {
+    "message": "API ключ к сервису переводчика"
+  },
+  "apiKeyToDs": {
+    "message": "API ключ к сервису словаря"
+  },
+  "save": {
+    "message": "Сохранить"
+  },
+  "popup": {
+    "message": "Translator"
+  },
+  "emptyApiKeyToTs": {
+    "message": "Пустой ключ к сервису переводчика"
+  },
+  "networkErrorWithTs": {
+    "message": "Сетевая ошибка при запросе к сервису переводчика"
+  },
+  "invalidApiKeyToTs": {
+    "message": "Недействительный ключ к сервису переводчика"
+  },
+  "translatePage": {
+    "message": "Перевести страницу"
+  },
+  "showSourceText": {
+    "message": "Показать исходный текст"
+  },
+  "showTranslatedText": {
+    "message": "Показать переведённый текст"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "default_locale": "en",
+  "name": "__MSG_extName__",
+  "short_name": "__MSG_extShortName__",
+  "description": "__MSG_extDesc__",
+  "version": "0.0.1",
+
+  "background": {
+    "scripts": ["background/script.js"]
+  },
+  "browser_action": {
+    "browser_style": true,
+    "default_popup": "popup/page.html",
+    "default_title": "__MSG_popup__"
+  },
+  "options_ui": {
+    "browser_style": true,
+    "open_in_tab": true,
+    "page": "settings/page.html"
+  },
+  "permissions": [
+    "<all_urls>",
+    "tabs",
+    "storage"
+  ]
+}

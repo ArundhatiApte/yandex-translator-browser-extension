@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <meta name="theme-color" content="light dark" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" media="all" href="style.css">
+    <title>Settings</title>
+  </head>
+  <body>
+    <main>
+      <form>
+        <ul>
+          <li id="ui-theme">
+            <label for="ui-theme-selector">theme</label>
+            <select id="ui-theme-selector"></select>
+          </li>
+
+          <li>
+            <label for="api-key-for-ts-input">API key to translator service</label>
+            <input type="text" id="api-key-for-ts-input" />
+          </li>
+
+          <li id="api-key-for-ds">
+            <label for="api-key-for-ds-input">API key to dictionary service</label>
+            <input type="text" id="api-key-for-ds-input" />
+          </li>
+        </ul>
+
+        <input id="saving-button" type="button" value="Save" />
+      </form>
+    </main>
+
+    <!-- Структура изменяется в собранном расширении -->
+    <script src="script.js"></script>
+  </body>
+</html>

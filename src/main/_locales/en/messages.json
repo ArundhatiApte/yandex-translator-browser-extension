@@ -1,0 +1,66 @@
+{
+  "extName": {
+    "message": "Yandex translator extension",
+    "description": "Name of the extension"
+  },
+  "extShortName": {
+    "message": "Yandex translator",
+    "description": "Short name of the extension"
+  },
+  "extDesc": {
+    "message": "Provides the ability to translate pages using Yandex translator",
+    "description": "Description of the extension"
+  },
+  "settings": {
+    "message": "Settings",
+    "description": "Title of the settings page"
+  },
+  "uiTheme": {
+    "message": "theme",
+    "description": "Label for selecting UI theme"
+  },
+  "lightTheme": {
+    "message": "light",
+    "description": "Name of the light ui theme"
+  },
+  "darkTheme": {
+    "message": "dark",
+    "description": "Name of the dark ui theme"
+  },
+  "apiKeyToTs": {
+    "message": "API key to translator service",
+    "description": "Label for entering the API key to the translator service"
+  },
+  "apiKeyToDs": {
+    "message": "API key to dictionary service",
+    "description": "Label for entering the API key to the dictionary service"
+  },
+  "save": {
+    "message": "Save",
+    "description": "Label for the saving button"
+  },
+  "popup": {
+    "message": "Translator",
+    "description": "Title of the popup page"
+  },
+  "emptyApiKeyToTs": {
+    "message": "Empty API key to the translator service",
+    "description": "Description of missing API key to the translator service"
+  },
+  "networkErrorWithTs": {
+    "message": "Network error at request to the translator service"
+  },
+  "invalidApiKeyToTs": {
+    "message": "Invalid API key to translation service"
+  },
+  "translatePage": {
+    "message": "Translate page",
+    "description": "Label for page translation button"
+  },
+  "showSourceText": {
+    "message": "Show source text"
+  },
+  "showTranslatedText": {
+    "message": "Show translated text"
+  }
+}

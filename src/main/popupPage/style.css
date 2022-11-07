@@ -1,0 +1,19 @@
+main {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+#source-language-selector {
+  margin: 0 0.5em 0 0.5em;
+}
+
+#target-language-selector {
+  margin: 0 0.5em 0 0;
+}
+
+#translation-button {
+  margin: 0.5em 0.5em 0 0.5em;
+  padding: 0.3em;
+  float: right;
+  border: none;
+}
