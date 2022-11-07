@@ -2,7 +2,10 @@ from os import path, mkdir, unlink
 from shutil import rmtree
 
 
-def prepareForBuilding(pathToTempDirForExtension, pathToDesDirForResults, nameOfExtensionFile):
+def prepareForBuilding(pathToDesDirForResults, pathToTempDirForExtension, nameOfExtensionFile):
+  if path.exists(pathToDesDirForResults) == False:
+    mkdir(pathToDesDirForResults)
+
   if path.exists(pathToTempDirForExtension):
     rmtree(pathToTempDirForExtension)
   mkdir(pathToTempDirForExtension)

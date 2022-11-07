@@ -39,10 +39,10 @@ def main(args):
 
   nameOfExtensionFile = "extension"
   pathToSrcDir = "../src/main"
-  pathToTempDirForExtension = "./result/extension"
   pathToDesDirForResults = "./result"
+  pathToTempDirForExtension = "./result/extension"
 
-  prepareForBuilding(pathToTempDirForExtension, pathToDesDirForResults, nameOfExtensionFile)
+  prepareForBuilding(pathToDesDirForResults, pathToTempDirForExtension, nameOfExtensionFile)
   buildExtension(
     pathToSrcDir,
     pathToTempDirForExtension,
